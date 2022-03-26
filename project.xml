@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	This document contains data on Codifica di Testi.
+	Filename: project.xml
+	Author: Daria Tarabori 
+	Matricola: 598478
+	Date: 14/03/2022
+-->
+<root>
+	<htmlCode> 
+		<![CDATA[ <h1>Capitolo Primo</h1> <h2>Sezione Seconda</h2> ]]>
+	</htmlCode>
+</root>

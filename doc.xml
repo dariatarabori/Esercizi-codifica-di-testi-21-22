@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <tag>
+        <well>
+            <child>
+                <child>
+                <!-- figlio di child -->
+                </child> 
+            </child>
+        </well>
+    <!-- <noWell>
+            <noWellNested>
+        </noWell>
+            </noWellNested> 
+        non sono correttamente annidati-->
+        <!-- corretti -->
+        <noWell>
+            <noWellNested>
+            </noWellNested>
+        </noWell>
+        <veryWell>
+        <!-- Sibling di noWell e di well -->
+        </veryWell>
+    </tag>
+</doc>
