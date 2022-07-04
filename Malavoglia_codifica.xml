@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt> 
+                <!-- 
+                    sezione per la codifica del titolo dell'ed. digitale 
+                -->
+                <title>I Malavoglia : versione e-book</title>
+                <respStmt> <!-- chi ha fatto cosa -->
+                    <resp>ALLA 3a EDIZIONE ELETTRONICA HANNO CONTRIBUITO:</resp>
+                    <name>Claudio Paganelli</name>
+                    <name>Edda Valsecchi</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt> 
+                <!-- 
+                    sez. per la codifica dei dati di diffusione e distribuzione dell'ed, casa
+                    editrice, anno pubblicazione, licenze di distribuzione
+                -->
+                <publisher>Marco Calvo</publisher>
+                <date>15 aprile 2014</date>
+                <availability status="free"><p>Diritti d'autore: no</p></availability>
+            </publicationStmt>
+            <sourceDesc> 
+                <!--
+                    descrizione fonte primaria, qual è il doc originario che sto codificando
+                -->
+                <bibl> <!-- entrata bibliografica -->
+                    <title>I Malavoglia</title>
+                    <author>Giovanni Verga</author>
+                    <publisher>Principato</publisher>
+                    <date>1985</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb n="11"/> <!-- page beginning -->
+                <cb n="1"/> <!-- chapter beginning -->                                           
+                <head>CAPITOLO I</head> 
+                <p>
+                    Un tempo i <surname><hi rend="italic">Malavoglia</hi></surname> erano stati numerosi come i sassi della strada vecchia di <name type="place">Trezza</name>; 
+                    ce n'erano persino ad <name type="place">Ognina</name>, e ad <name type="place">Aci Castello</name>, tutti buona e brava gente di mare, proprio all'opposto 
+                    di quel che sembrava dal nomignolo, come dev'essere. Veramente nel libro della parrocchia si chiamavano <mentioned><surname>Toscano</surname></mentioned>, 
+                    ma questo non voleva dir nulla, poiché da che il mondo era mondo, all'<name type="place">Ognina</name>, a <name type="place">Trezza</name> e ad 
+                    <name type="place">Aci Castello</name>, li avevano sempre conosciuti per <surname>Malavoglia</surname>, di padre in figlio, che avevano 
+                    sempre avuto delle barche sull'acqua, e delle tegole al sole. Adesso a <name type="place">Trezza</name> non rimanevano che i <surname>Malavoglia</surname> 
+                    di <distinct>padron <addName type="person">'Ntoni</addName></distinct>, quelli della casa del nespolo, e della <name><hi rend="italic">Provvidenza</hi></name> ch'era ammarrata sul greto, sotto il lavatoio, 
+                    accanto alla <name><hi rend="italic">Concetta</hi></name> dello zio <name type="person">Cola</name>, e alla paranza di padron 
+                    <persName><forename>Fortunato</forename> <surname><hi rend="italic">Cipolla</hi></surname></persName>. 
+                </p>
+                <p>
+                    Le burrasche che avevano disperso di qua e di là gli altri <surname>Malavoglia</surname>, erano passate senza far gran danno sulla casa del nespolo e 
+                    sulla barca ammarrata sotto il lavatoio; e <distinct>padron <addName type="person">'Ntoni</addName></distinct>, per spiegare il miracolo, soleva 
+                    dire, mostrando il pugno chiuso — un pugno che sembrava fatto di legno di noce — <said>Per menare il remo bisogna che le cinque dita s'aiutino l'un l'altro</said>. 
+                </p>
+                <pb n="12"/>
+                <p>
+                    Diceva pure: — <said>Gli uomini son fatti come le dita della mano: il dito grosso deve far da dito grosso, e il dito piccolo deve far da dito piccolo</said>. 
+                </p>
+                <p>
+                    E la famigliuola di <distinct>padron <addName type="person">'Ntoni</addName></distinct> era realmente disposta come le dita della mano. Prima veniva lui, 
+                    il dito grosso, che comandava le feste e le quarant'ore; poi suo figlio <name type="person">Bastiano</name>, <addName><hi rend="italic">Bastianazzo</hi></addName>,
+                    perché era grande e grosso quanto il <name>San Cristoforo</name> che c'era dipinto sotto l'arco della pescheria della città; e così grande e grosso 
+                    com'era filava diritto alla manovra comandata, e non si sarebbe soffiato il naso se suo padre non gli avesse detto «<said>soffiati il naso</said>» 
+                    tanto che s'era tolta in moglie <addName><hi rend="italic">la Longa</hi></addName> quando gli avevano detto «<said>pigliatela</said>». Poi veniva  
+                    <addName>la Longa</addName>, una piccina che badava a tessere, salare le acciughe, e far figliuoli, da buona massaia; infine i nipoti, in ordine di anzianità: 
+                    <distinct><addName type="person">'Ntoni</addName></distinct> il maggiore, un bighellone di 
+                    vent'anni, che si buscava tutt'ora qualche scappellotto dal nonno, e qualche pedata più giù per rimettere l'equilibrio, quando lo scappellotto era stato 
+                    troppo forte; <name type="person">Luca</name>, «<said>che aveva più giudizio del grande</said>» ripeteva il nonno; 
+                    <distinct><addName type="person">Mena</addName></distinct> (<name type="person">Filomena</name>) soprannominata «<quote><addName>Sant'Agata</addName></quote>» 
+                    perché stava sempre al telaio, e si suol dire «<quote>donna di telaio, gallina di pollaio, e triglia di gennaio</quote>»; 
+                    <distinct><addName type="person">Alessi</addName></distinct> (<name type="person">Alessio</name>) un moccioso tutto suo nonno colui!; e 
+                    <addName type="person">Lia</addName> (<name type="person">Rosalia</name>) ancora né carne né pesce. — Alla domenica, quando entravano in chiesa, l'uno dietro 
+                    l'altro, pareva una processione. 
+                </p>
+                <p>
+                    <distinct>Padron <addName type="person">'Ntoni</addName></distinct> sapeva anche certi <hi rend="italic">motti</hi> e proverbi che 
+                    aveva sentito dagli <hi rend="italic">antichi</hi>: «<quote>Perché il motto degli anti-
+                <pb n="13"/>
+                    chi mai mentì</quote>»: — «<quote>Senza pilota barca non cammina</quote>»— «<quote>Per far da papa bisogna saper far da sagrestano</quote>» — oppure — 
+                    «<quote>Fa il mestiere che sai, che se non arricchisci camperai</quote>» — «<quote>Contentati di quel che t'ha fatto tuo padre; se non altro non sarai 
+                    un birbante</quote>» ed altre sentenze giudiziose. 
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

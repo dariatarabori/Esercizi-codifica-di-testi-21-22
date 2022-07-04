@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader id="teiHeader">
+        <fileDesc> 
+            <titleStmt> 
+                <title>Codifica lettera di Vincenzo Bellini</title>
+                <respStmt>
+                    <resp>A cura di </resp>
+                    <name>Daria Tarabori</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt> 
+                <publisher>Vincenzo Bellini</publisher>   
+            </publicationStmt>
+            <sourceDesc> 
+                <p>
+                    Autore: Vincenzo Bellini
+                </p> 
+            </sourceDesc>   
+        </fileDesc>    
+    </teiHeader>
+    <text>
+        <body> 
+            <div type="lettera"> 
+                <pb facs="#page1" n="1" xml:id="page-1" />
+                <opener facs="#opener" xml:id="apertura">
+                    <dateline facs="#dateline" xml:id="data_luogo">
+                        <unclear reason="illegible" cert="low" facs="#parte_unclear" xml:id="unclear">fixium Cotefire </unclear>
+                        <gap reason="illegible" facs="#gap" xml:id="parte_illeggibile"/>
+                        <date facs="#date" xml:id="data">30: Maggio</date>
+                        -/
+                        <name type="place" facs="#where" xml:id="luogo">rampe de pont de Neuilly <hi rend="underline">19-bis
+                        pres de Paris à Puteaux</hi></name>    
+                    </dateline>
+                    <salute facs="#salute" xml:id="saluto">Mio caro <unclear reason="illegible" cert="low">Ponzani</unclear></salute>
+                </opener>
+                <p facs="#corpoLettera" xml:id="corpo_lettera">
+                    <surname>Barbò</surname> ha dovuto scriverti che io <orig>avea</orig> ricevuto la tua lettera, e che <orig>avea</orig>
+                    spedito a <name type="place">Londra</name> quella di <unclear cert="medium"><name type="person">Larry</name></unclear>,
+                    ove questi si trovava. Ora è qui, e mi <orig>dà</orig> la <unclear reason="illegible" cert="medium">commissione </unclear>
+                    di farti pagare il tuo debito; ma come non se ne capisce precisamente la cifra non posso dare <orig>alcun'ordine </orig>
+                    perché ti <orig>sii sborzato</orig>; ora, se tu vedi la <abbr>Sig:ra </abbr><unclear reason="illegible">
+                    <persName><forename><abbr>G. </abbr></forename><surname>Susina </surname></persName></unclear>puoi <del rend="overstrike" hand="author">
+                    l</del>a lei dire se sono <abbr>160:</abbr> o  <unclear reason="illegible" cert="low"><abbr>bo:f:i </abbr></unclear>che ti si deve, e
+                    pregare lei che te li paghi e me ne carichi a me il debito: hai capito? Nel caso poi che tu non vedi più la <unclear  reason="illegible" 
+                    cert="low">no:tta</unclear> scrivimi precisamente la cifra che <unclear reason="illegible" cert="low">in darò </unclear> commissione ad altro
+                    perché ti sia pagata _ Qualunque sia la riceverai da <unclear reason="illegible" cert="low"><abbr>M:a</abbr><surname> Pollini</surname></unclear>
+                </p>
+            </div> 
+        </body>
+    </text>
+    <facsimile>
+        <surface xml:id="page1" start="#page-1" ulx="39" uly="12" lrx="1639" lry="2452">
+            <graphic url="letteraBellini.jpg" />
+            <zone xml:id="opener" start="#apertura" ulx="195" uly="70" lrx="1639" lry="560">
+                <note>Apertura lettera.</note>
+                    <zone xml:id="dateline" start="#data_luogo" ulx="220" uly="93" lrx="1639" lry="428">
+                        <note>Data e luogo.</note>
+                            <zone xml:id="parte_unclear" start="#unclear" ulx="232" uly="124" lrx="436" lry="322">
+                                <note>Parte di difficile interpretazione.</note>
+                            </zone>
+                            <zone xml:id="gap" start="#parte_illeggibile" ulx="327" uly="189" lrx="516" lry="961">
+                                <note>Parte impossibile da interpretare.</note>
+                            </zone>
+                            <zone xml:id="date" start="#data" ulx="557" uly="132" lrx="944" lry="240">
+                                <note>Data di scrittura della lettera.</note>
+                            </zone>
+                            <zone xml:id="where" start="#luogo" ulx="943" uly="132" lrx="1637" lry="437">
+                                <note>Luogo di scrittura della lettera.</note>
+                            </zone>
+                    </zone>
+                    <zone xml:id="salute" start="#saluto" ulx="253" uly="394" lrx="876" lry="532">
+                        <note>Formula di saluto al destinatario della lettera.</note>
+                    </zone>       
+            </zone>
+            <zone xml:id="corpoLettera" start="#corpo_lettera" ulx="129" uly="564" lrx="1623" lry="2280">
+                <note>Corpo della lettera.</note>
+            </zone>
+        </surface>
+    </facsimile>
+</TEI>
